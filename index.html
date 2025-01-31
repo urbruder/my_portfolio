@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/28dca6c937.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Images/harsh-high-resolution-logo (2).png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>WEB DEVELOPER</p>
+                <h1>Hi, I'm <span>Harsh</span><br>Singh from India.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About Section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/WhatsApp Image 2025-01-26 at 21.34.07_fba181df.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me.</h1>
+                    <p class="Bio">I am an Electronics and Communication Engineering (ECE) student from BP Poddar
+                        Institute of Management and technology. I am passionate about building
+                        impactful solutions through technology. My focus lies in web development and contributing to the
+                        vibrant open-source community.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Devloper</span><br>Developing Websites</li>
+                            <li><span>App Devloper</span><br>Building Android/iOS apps</li>
+                            <li><span>Programming Languages</span><br>C++,C,Python</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Fresher</span><br>No experience</li>
+                            <li><span>No experience</span><br>Fresher</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023-2027</span><br>BTECH from BPPIMT.</li>
+                            <li><span>2014-2022</span><br>Atteneded North Kolkata Public School.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- --------------Services------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="subtitle">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Websites according to customer requirements can be built.Frontend,Backend and Full Stack websites
+                        can be made.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>App Development</h2>
+                    <p>Apps according to customer requirements can be built. Android/IOS apps can also be built. </p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Graphic design according to customer requirements can be made. </p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------------------Portfolio-------------------------   -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="subtitle">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/Screenshot 2025-01-29 004927.png" alt="">
+                    <div class="layer">
+                        <h2>Restaurant Website</h2>
+                        <p>It is a Frontend project where I have used HTML and JavaScript.This is basically a restaurant
+                            website with the menu of the restaurant and details about the restaurant.</p>
+                        <a href="https://github.com/urbruder"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Screenshot 2025-01-29 005347.png" alt="">
+                    <div class="layer">
+                        <h2>Tic Tac Toe Website</h2>
+                        <p>It is a Frontend project where I have used HTML,CSS and JavaScript.This is basically a
+                            website where one can play the Tic-Tac Toe game.</p>
+                        <a href="https://github.com/urbruder"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/Screenshot 2025-01-29 005622.png" alt="">
+                    <div class="layer">
+                        <h2>Amazon clone Website</h2>
+                        <p>It is a Frontend project where I have used HTML,CSS and JavaScript.This is basically a clone
+                            website of Amazon and only the frontend part is cloned.</p>
+                        <a href="https://github.com/urbruder"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/urbruder" class="btn">See More</a>
+        </div>
+    </div>
+    <!-- ---------------------------------------Contact---------------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>harshsingh7133@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8697778712</p>
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/harshhhhh_fr?igsh=MW5qdnlrMzBpNHZ2cw=="><i class="fa-brands fa-instagram"></i></a>
+                        <a
+                            href="https://www.linkedin.com/in/harsh-singh-272927299?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/urbruder"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="Images/cv.yash.management.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Harsh.Made with <i class="fa-solid fa-heart"></i> by easy tutorial</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+   
+</body>
+
+</html>
